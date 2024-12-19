@@ -58,6 +58,7 @@ app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://joanderson:ifpb@postgres:5
 db = SQLAlchemy(app)
 
 class User(db.Model):
+    __tablename__ = 'users'
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(80), nullable=False)
 
@@ -172,6 +173,10 @@ docker-compose up -d
 ```
 
 ![App Screenshot](https://github.com/eujoanderson/docker-web-app/blob/master/img/final.png)
+
+Todos os containers rodando normalmente:
+
+![App Screenshot](https://github.com/eujoanderson/docker-web-app/blob/master/img/containers.png)
 
 A aplicação tem que funcionar normalmente:
 
