@@ -1,0 +1,30 @@
+version: '3'
+services:
+  nginx:
+    build: ./nginx
+    ports:
+      - "8080:80"
+    networks:
+      - webnet
+
+  app:
+    build: ./app
+    depends_on:
+      - postgres
+    networks:
+      - webnet
+
+  postgres:
+    build: ./postgres
+    environment:
+      POSTGRES_PASSWORD: ifpb
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    networks:
+      - webnet
+
+volumes:
+  pgdata:
+
+networks:
+  webnet:
