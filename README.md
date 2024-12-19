@@ -87,6 +87,9 @@ Rode o comando dentro da pasta app
 docker build .
 ```
 
+![App Screenshot](https://github.com/eujoanderson/docker-web-app/blob/master/img/passo03.png)
+
+
 Dentro da pasta nginx crie.
 
 nginx.conf
@@ -158,10 +161,23 @@ e rode:
 docker-compose up -d
 ```
 
+![App Screenshot](https://github.com/eujoanderson/docker-web-app/blob/master/img/final.png)
+
 A aplicação tem que funcionar normalmente:
 
 ```
 http://<ip_server>:8080
 http://<ip_server>:8080/users/
 ```
+
+```
+http://<ip_server>:8080
+```
+![App Screenshot](https://github.com/eujoanderson/docker-web-app/blob/master/img/web-simples.png)
+
+
+```bash
+http://<ip_server>:8080/users/
+```
+![App Screenshot](https://github.com/eujoanderson/docker-web-app/blob/master/img/web_users.png)
 
