@@ -176,7 +176,7 @@ docker-compose up -d
 
 Todos os containers rodando normalmente:
 
-![App Screenshot](https://github.com/eujoanderson/docker-web-app/blob/master/img/containers.png)
+![App Screenshot](https://github.com/eujoanderson/docker-web-app/blob/master/img/docker.png)
 
 A aplicação tem que funcionar normalmente:
 
