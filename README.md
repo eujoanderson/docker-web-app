@@ -5,6 +5,7 @@ Neste desafio, você irá construir um ambiente completo de aplicação web util
 #### 💻 Aqui abaixo tem um passo a passo de como foi configurado essa aplicação simples
 
 Versão do linux utilizada:
+
 ![App Screenshot](https://github.com/eujoanderson/docker-web-app/blob/master/img/linux.png)
 
 A estrutura do projeto precisa ficar dessa forma.
