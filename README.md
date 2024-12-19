@@ -11,6 +11,9 @@ A estrutura do projeto precisa ficar dessa forma.
 
 
 Dentro de app, crie o arquivo app.py. 
+
+![App Screenshot](https://github.com/eujoanderson/docker-web-app/blob/master/img/passo02.png)
+
 ```bash
 from flask import Flask, jsonify
 from flask_sqlalchemy import SQLAlchemy
@@ -37,4 +40,4 @@ if __name__ == '__main__':
     app.run(host='0.0.0.0')
 ```
 
-![App Screenshot](https://github.com/eujoanderson/docker-web-app/blob/master/img/passo02.png)
+
