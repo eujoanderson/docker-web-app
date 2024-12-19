@@ -165,10 +165,6 @@ docker-compose up -d
 
 A aplicação tem que funcionar normalmente:
 
-```
-http://<ip_server>:8080
-http://<ip_server>:8080/users/
-```
 
 ```
 http://<ip_server>:8080
