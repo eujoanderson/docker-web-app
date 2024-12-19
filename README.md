@@ -19,7 +19,7 @@ apt install docker docker-compose
 
 
 
-Dentro da pasta postgres crie o arquivo 'init.sql'. 
+Depois prossiga na criação do projeto. Dentro da pasta postgres crie o arquivo 'init.sql'. 
 ```bash
 CREATE TABLE IF NOT EXISTS users (
     id SERIAL PRIMARY KEY,
